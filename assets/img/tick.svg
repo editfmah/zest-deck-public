@@ -1,0 +1,12 @@
+<svg id="tick" xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+  <g id="Group_881" data-name="Group 881" transform="translate(5.532 7.428)">
+    <g id="Group_880" data-name="Group 880">
+      <path id="Path_1305" data-name="Path 1305" d="M134.868,165.655a.932.932,0,0,0-1.318-.035l-5.953,5.645-2.839-2.915a.932.932,0,0,0-1.336,1.3l3.481,3.574a.933.933,0,0,0,1.31.026l6.62-6.278A.932.932,0,0,0,134.868,165.655Z" transform="translate(-123.158 -165.364)" fill="#fe5b3d"/>
+    </g>
+  </g>
+  <g id="Group_883" data-name="Group 883">
+    <g id="Group_882" data-name="Group 882">
+      <path id="Path_1306" data-name="Path 1306" d="M11.5,0A11.5,11.5,0,1,0,23,11.5,11.513,11.513,0,0,0,11.5,0Zm0,21.135A9.635,9.635,0,1,1,21.135,11.5,9.646,9.646,0,0,1,11.5,21.135Z" fill="#fe5b3d"/>
+    </g>
+  </g>
+</svg>

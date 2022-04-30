@@ -1,0 +1,326 @@
+@media (max-width: 1199px) {
+
+    h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    section {
+        padding: 30px 0;
+    }
+    .copyrights {
+        margin-top: 15px;
+        padding-top: 35px;
+    }
+    .site-footer .content-box {
+        padding: 25px;
+    }
+
+    .howitworks-sec .boxes {
+        margin-top: 50px;
+    }
+    .howitworks-sec .work-box {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+        margin-bottom: 25px;
+    }
+    .howitworks-sec .work-box .img {
+        width: 130px;
+        height: 130px;
+        margin: 0 auto 20px;
+        padding: 25px;
+    }
+    .howitworks-sec .work-box .desc {
+        max-width: 98%;
+        margin: 0 auto;
+    }
+    .howitworks-sec .work-box h5 {
+        margin-bottom: 10px;
+    }
+    .services-sec .services-box .box {
+        padding: 25px;
+    }
+    .services-sec .services-box {
+        margin-top: 35px;
+    }
+   
+}
+
+
+@media (max-width: 991px) {
+
+    h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    h2 {
+        font-size: 35px;
+        line-height: 40px;
+    }    
+   
+    .site-banner {
+        padding: 120px 0 50px;
+    }
+    .site-banner .desc {
+        margin-top: 20px;
+    }
+    .copyrights {
+        margin-top: 0;
+        padding-top: 30px;
+    }
+    .services-sec .services-box .box {
+        padding: 20px;
+    }
+    .about-sec {
+        padding-top: 0;
+    }
+    
+}
+
+
+@media (max-width: 767px) {
+
+    h1 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    h2 {
+        font-size: 30px;
+        line-height: 38px;
+        margin-bottom: 10px;
+    }   
+    h3,
+    h4 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    h5,
+    h6 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    
+    .mobile-menu-open {
+        position: absolute;
+        right: 0;
+        font-size: 28px;
+        z-index: 1;
+        width: 50px;
+        height: 50px;
+    }
+    .sidenav {
+        background-color: #272C48;
+        height: 100%;
+        max-width: 90%;
+        border-radius: 0 125px 0 0;
+        position: fixed;
+        z-index: 99;
+        top: 0;
+        left: -100%;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding: 70px 20px 0;
+        text-align: center;
+    }
+    .sidenav .closebtn {
+        color: #0f2a60;
+        position: absolute;
+        top: 35px;
+        right: 35px;
+        font-family: 'nexa_heavy';
+        font-size: 35px;
+        font-weight: 900;
+        line-height: 45px;
+        margin-left: 50px;
+        padding: 0;
+        background-color: #ffffff;
+        border-radius: 50px;
+        width: 45px;
+        height: 45px;
+    }
+    .sidenav ul.navbar-nav li {
+        margin-left: 0 !important;
+        margin-bottom: 0;
+        padding: 0 5px;
+        text-align: left;
+        width: 100%;
+    }  
+    .site-header .navbar-nav .nav-link {
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 10px;
+    }
+
+    .site-banner {
+        padding: 160px 0 50px;
+    }
+    .sec-imgs {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+        
+    .howitworks-sec .work-box {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+}
+
+@media (max-width: 575px) {
+
+    .upcomming-nft-sec .product-box .features-boxes .col {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+}
+
+@media (min-width: 530px) and (max-width: 767px) {  
+
+    .join-community-sec p {
+        max-width: 80%;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {  
+    
+}
+
+@media (min-width: 768px) {
+        
+    .site-header .navbar-nav .nav-item + .nav-item {
+        margin-left: 60px;
+    }
+    .site-header .navbar-nav .social-links .nav-link::before,
+    .site-header .navbar-nav .nav-link.primary-btn:before {
+        content: none !important;
+    }
+    .site-header .navbar-nav .nav-link {
+        color: #ffffff;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 20px;
+        position: relative;
+        transition: 0.5s;
+    }
+    .site-header .navbar-nav .nav-link:before {
+        content: '';
+        background-color: transparent;
+        display: block;
+        height: 2px;
+        width: 50%;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: 0.5s;
+    }
+    .site-header .navbar-nav .nav-link:hover,
+    .site-header .navbar-nav .nav-link.active {
+        color: rgba(130, 199, 170, 0.99);
+        transition: 0.5s;
+    }
+    .site-header .navbar-nav .nav-link:hover:before,
+    .site-header .navbar-nav .nav-link.active:before {
+        background-color: rgba(130, 199, 170, 0.99);
+        transition: 0.5s;
+    }
+    .site-header .navbar-nav .nav-link.primary-btn:hover {
+        color: #ffffff;
+    }
+
+    .site-footer .content-box .info-boxes {
+        position: relative;
+    }
+    .site-footer .content-box .info-boxes:after {
+        content: '';
+        background-color: #F35436;
+        display: block;
+        height: 70px;
+        width: 3px;
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+    }    
+    .site-footer .content-box .info-boxes:last-child::after {
+        content: none;
+    }
+    
+    .sec-imgs {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    
+    .sec-imgs {
+        max-width: 95%;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    
+    .container {
+        max-width: 1180px;
+    }
+
+    .site-banner .desc {
+        max-width: 80%;
+    }
+    .site-banner .bg-darkgray {
+        margin-left: -20px;
+    }
+
+    .howitworks-sec .boxes:before {
+        content: '';
+        border: 2px dashed rgba(112, 112, 112, 0.13);
+        width: 70%;
+        position: absolute;
+        top: 80px;
+        z-index: -1;
+    }
+    .howitworks-sec .work-box .desc {
+        max-width: 98%;
+        margin: 0 auto;
+    }
+    
+}
+
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1350px;
+    }
+    .sec-imgs {
+        max-width: 90%;
+    }
+}
+
+
+@media (min-width: 1600px) {
+    
+    .container {
+        max-width: 1500px;
+    }
+   
+    .sec-imgs {
+        max-width: 80%;
+    }
+
+    .howitworks-sec .work-box .desc {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+}
