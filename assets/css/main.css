@@ -214,7 +214,7 @@ h2 span.bg-white {
 *  Header
 *******************************************************************************************************************************************************/
 .site-header {    
-    background-color: transparent;
+    background-color: #272C48;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0);
     padding: 25px 0;
     position: absolute;
