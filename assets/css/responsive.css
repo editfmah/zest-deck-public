@@ -195,7 +195,7 @@
 @media (min-width: 768px) {
         
     .site-header .navbar-nav .nav-item + .nav-item {
-        margin-left: 60px;
+        margin-left: 30px;
     }
     .site-header .navbar-nav .social-links .nav-link::before,
     .site-header .navbar-nav .nav-link.primary-btn:before {
